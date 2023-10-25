@@ -66,6 +66,7 @@ hr {color: #007bff;
     object-fit: cover;
     margin-bottom: 20px;
     border-radius: 1%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -88,6 +89,10 @@ hr {color: #007bff;
 .recipe-source {
     margin-top: 20px;
     font-size: 14px;
+}
+
+.recipe-source a {
+    color: #177;
 }
 
 .link-wrapper {
