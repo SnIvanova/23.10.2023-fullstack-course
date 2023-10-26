@@ -1,0 +1,33 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url('assets/img/sfondo.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+/* HEADER */
+header{
+    margin: 4em;
+    box-sizing: content-box;
+    flex-direction: column;
+    display: flex;
+    background-image: linear-gradient(rgb(21, 140, 146), rgb(26, 117, 167));
+    padding: 1em;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    height: 20em;
+    width: 20em;
+}
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
