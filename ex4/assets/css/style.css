@@ -228,7 +228,6 @@ aside .container {
     display: flex;
     background-color: #f9f9f9;
     padding: 1em;
-    border-radius: 8px;
     margin-bottom: 1em;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     flex-direction: column;
@@ -247,7 +246,8 @@ aside p {
 }
 
 aside .data {
-    text-align: left;
+    align-items: flex-end;
+    font-size: small;
 }
 
 aside h3 a {
@@ -266,7 +266,7 @@ footer {
     display: flex;
     background: linear-gradient( rgb(10, 90, 102), rgb(4, 8, 41));
     box-shadow: 2px 5px 5px rgb(49, 47, 47);
-    padding: 1em;
+    padding: 2em;
     margin: 0 1em 1em 1em;
     color: white;
     flex-direction: column;
@@ -274,4 +274,7 @@ footer {
     justify-content: center;
     align-items: center;
 
+}
+footer p{
+    padding-bottom: 1em;
 }
