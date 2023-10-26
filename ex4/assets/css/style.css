@@ -1,33 +1,232 @@
-/* IMPOSTAZIONI GENERALI */
+
+/* Apply the Roboto font to the body */
 body {
-    background-image: url('assets/img/sfondo.png');
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../img/sfondo.png');
     background-size: cover;
-    background-repeat: no-repeat; 
-  }
-/* HEADER */
-header{
-    margin: 4em;
-    box-sizing: content-box;
+    background-repeat: no-repeat;
     flex-direction: column;
-    display: flex;
-    background-image: linear-gradient(rgb(21, 140, 146), rgb(26, 117, 167));
-    padding: 1em;
+    display: flex; 
+    align-items: center;
     align-content: space-between;
     justify-content: space-between;
-    align-items: center;
 }
+
+/* HEADER */
+header {
+    text-transform: uppercase;
+    margin: 3em;
+    box-sizing: content-box;
+    background: linear-gradient(0deg, rgba(0,114,136,1) 0%, rgba(0,153,204,1) 100%);
+    padding: 3em;
+    box-shadow: 2px 5px 5px rgb(49, 47, 47);
+    color: #ffffff;
+}
+
 header img {
-    height: 20em;
+    padding: 2em;
     width: 20em;
 }
+header h1 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 900;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-weight: bold;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav ul li {
+    position: relative;
+}
+
+
+nav a { 
+    color: #ffffff;
+    text-decoration: none;}
+
 /* MAIN */
+main {
+    margin: 3em;
+    padding: 3em;
+}
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+    margin-bottom: 3em;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(49, 47, 47);
+}
 
-/* TABELLE */
+article h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
 
-/* FORM */
+}
 
-/* ELEMENTI NELL' ASIDE */
+article h3 {
+    color: #555;
+    font-size: 1.2em;
+    text-align: right;
+    margin-top: 1em;
+}
+.autor {
+    color: rgb(152, 144, 144);
+    display: inline;
+}
+
+b {
+    color: #AA2072 ;
+}
+code{
+    background-color: #a4a1a1;
+    border-radius: 8px;
+    border: 2px solid #040303;
+}
+article p {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.6;
+    padding: 1em 1em 1em 0;
+
+}
+
+article ul {
+    list-style: disc;
+    margin-top: 1em;
+    padding-left: 2em;
+    color: #0e0c0c;
+    margin-bottom: 1em;
+}
+
+article ol {
+    list-style: decimal;
+    margin-top: 1em;
+    padding-left: 2em;
+    color: #0e0c0c;
+}
+
+article li {
+    margin-bottom: 0.5em;
+}
+
+article section.table {
+    margin-top: 2em;
+    color: #333;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+article table, article th, article td {
+    border: 1px solid #ddd;
+}
+
+article th {
+    background-color: #3366CC;
+    color: white;
+    padding: 0.5em;
+    text-align: left;
+}
+
+article th, article td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+article tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+article a {
+    color: #0072A8;
+    text-decoration: underline;
+    font-weight: bold;
+}
+caption{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.article .newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.newsletter {
+    background-color: #f2f2f2; 
+    padding: 2em;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 1em;}
+
+.newsletter p {
+    color: #555;
+    margin-bottom: 1em; 
+}
+
+
+.newsletter input[type="email"] {
+    width: 60%; 
+    padding: 0.5em;
+    margin-bottom: 1em; 
+}
+
+.newsletter button[type="submit"] {
+    font-weight: bold;
+    background-color: #2e45ac; 
+    color: white;
+    padding: 0.5em 1em; 
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* ASIDE */
+aside {
+    padding: 1em;
+}
 
 /* FOOTER */
+footer {
+    background: linear-gradient( rgb(10, 90, 102), rgb(4, 8, 41));
+    box-shadow: 2px 5px 5px rgb(49, 47, 47);
+    padding: 1em;
+    color: white;
+}
+
+/* NEWSLETTER STYLES */
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
